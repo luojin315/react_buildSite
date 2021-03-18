@@ -4,7 +4,7 @@ import './horizontalNav.scss'
 export default class header extends Component {
     line = React.createRef()
     navMouseover = (e) => {
-        const {target: {className, nodeName}, target} = e;
+        const { target: { className, nodeName }, target } = e;
         if (className !== 'line' && nodeName === 'LI') {
             let num = [].indexOf.call(target.parentNode.querySelectorAll('li'), target),
                 left;

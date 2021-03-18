@@ -68,3 +68,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## svg图标库  
+[点击查看](https://fontawesome.com/how-to-use/on-the-web/using-with/react)
+目前考虑站点用到的图标会很多，虽然用ant  但先不卸载font库，后期用不上这些可以卸载   按需加载不担心包大  
+npm i --save @fortawesome/fontawesome-svg-core
+npm i --save @fortawesome/free-solid-svg-icons
+npm i --save @fortawesome/react-fontawesome
+
+## ant UI
+[点击查看](https://ant.design)
+
+## ant Motion
+动画库
+[动画库](https://motion.ant.design/components/queue-anim-cn#components-queue-anim-demo-custom)
+cnpm install rc-queue-anim --save  进出场动画  只会进入页面执行一次
+
